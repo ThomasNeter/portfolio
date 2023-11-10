@@ -3,6 +3,7 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import BiggestBird from './BiggestBird.tsx'
 
 interface HeaderProps {
    sections: string[];
@@ -92,7 +93,7 @@ const Header: React.FC<HeaderProps> = ({sections}) => {
                      I'm Thomas Neter
                   </h1>
                   <p className="mt-6 text-lg leading-8 text-gray-600">
-                     I'm a full stack developer and Systems Design Engineer
+                     I'm a Full Stack Developer and Systems Design Engineer
                   </p>
                   <div className="mt-10 flex items-center justify-center gap-x-6">
                      <a
@@ -113,6 +114,7 @@ const Header: React.FC<HeaderProps> = ({sections}) => {
                      </a>
                   </div>
                </div>
+               <BiggestBird/>
             </div>
          </div>
       </div>
