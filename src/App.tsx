@@ -4,10 +4,8 @@ import Experience from './Components/Experience.tsx'
 import About from './Components/About.tsx'
 import Footer from './Components/Footer.tsx'
 import resume from './resumeData.json';
-// import { useRef } from 'react';
 
 function App() {
-  // const ref = useRef(null);
   const sections = ["Work Experience", "Projects", "Education", "About Me"];
 
   return (

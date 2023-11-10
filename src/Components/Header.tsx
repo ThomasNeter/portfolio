@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = ({sections}) => {
    
    return (
       <div>
-         <header className="fixed inset-x-0 top-0 z-50 lg:bg-white">
+         <header className="fixed inset-x-0 z-10 top-0 lg:bg-white">
             <nav
                className="flex items-center justify-end lg:justify-center lg:px-8 "
                aria-label="Global"
@@ -52,8 +52,8 @@ const Header: React.FC<HeaderProps> = ({sections}) => {
                open={mobileMenuOpen}
                onClose={() => setMobileMenuOpen(false)}
             >
-               <div className="fixed inset-0 z-50" />
-               <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+               <div className="fixed inset-0" />
+               <Dialog.Panel className="fixed z-20 inset-y-0 right-0 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                   <div className="flex items-center justify-end">
                      <button
                         type="button"
