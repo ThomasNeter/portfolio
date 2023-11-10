@@ -1,0 +1,144 @@
+{
+  "main": {
+    "name":"Thomas Neter",
+    "occupation":"Full Stack Developer",
+    "education": "Systems Design Engineering from the University of Waterloo",
+    "image":"profilepic.jpg",
+    "bio":"In my free time I enjoy playing soccer, running, hiking, bouldering; reading fantasy (Tolkien, Malazan) or horror; and playing video games, some favorites being Uncharted, Skyrim, Smash Bros, Fifa, and Rocket League. I also love travelling, some of my favorite places I've visited include Portugal, Spain, Italy, Finland, and Japan.",
+    "email": "tcneter@uwaterloo.ca",
+    "phone": "705-970-3573",
+    "address":{
+      "city":"Barrie",
+      "state":"Ontario"
+    },
+    "website": "http://www.thomasneter.me",
+    "resumedownload":"../images/resume.pdf",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tneter/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/ThomasNeter",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "company":"University of Waterloo",
+        "title":"Systems Design Engineering (B.A.Sc.)",
+        "date":"2017-2022",
+        "description":["Studied courses reflecting a wide range of industries such as comp-sci, product design, and mechanical engineering. It prepares the student for leadership in a complex technological society that requires interdisciplinary thinking capability to meet future needs for complex, balanced decision-making."]
+      }
+    ],
+    "work":[
+      {
+        "company":"Sublettr",
+        "title":"User Experience Engineer",
+        "date":"Jun-Oct 2021 (part-time)",
+        "description":[
+          "Designed and implemented key features using Flutter and Firebase, including property listings, search functionality, and user authentication, while managing the project timeline to ensure the successful delivery of the app.",
+          "Employed user-centered design and made feedback-based iterative improvements, increasing user satisfaction by 30%."
+        ]
+      },
+      {
+        "company":"Lifion by ADP",
+        "title":"Software Engineer",
+        "date":"May-Aug 2021",
+        "description":[
+          "Streamlined Google Analytics use by designing a comprehensive guide for analytics workflows; analyzing design patterns, researching usability principles, and interviewing stakeholders to enhance users’ behavioral insights.",
+          "Accelerated the launch of the internal test-automation dashboard by several weeks, leveraging React, Express, Jest, and Kubernetes to build crucial features and subsequent tests"
+        ]
+      },
+      {
+        "company":"Geotab",
+        "title":"Software Developer",
+        "date":"Sept-Dec 2020 and Jan-April 2021 (returned part-time)",
+        "description":[
+          "Prototyped an internal phrase-sentiment visualization application using React, Redux, Cytoscape, Plotly, Material UI, Python, SQL, Google BigQuery, and Docker, capable of handling over 1 million data points.",
+          "Utilized React, Redux, Tabulator, and Google BigQuery to develop an effective company-wide metadata management tool, empowering data-ownership and facilitating the efforts of 70+ data scientists in R&D."
+        ]
+      },
+      {
+        "company":"360Insights",
+        "title":"Full Stack Developer",
+        "date":"Jan-Apr 2020",
+        "description":[
+          "Enhanced user experience and integrated REST API endpoints within the rebate details screen using React and Express, simultaneously adding functionality for clients’ donation campaigns and reducing call-center load by 12%.",
+          "Streamlined Sales Associates' access to qualification data for all programs by creating a data export tool that transformed data into CSV format using React, Express, and Node-Xlsx, saving over 1500 hours annually.",
+          "Ensured high-quality delivery of projects in an Agile team by following test-driven development principles and achieving 100% test coverage using Jest, Sinon, Chai, and Enzyme."
+        ]
+      },
+      {
+        "company":"Digital Extremes",
+        "title":"Web Developer",
+        "date":"May-Aug 2019",
+        "description":[
+          "Led the development of DE’s website redesign, utilizing Laravel, NodeJS, jQuery, VueJS, Node-Vibrant, and SASS",
+          "Designed a back-end portal using PHP and MongoDB for managing 200+ existing articles and future news posts.",
+          "Created a game-show with Node, NodeCG, and Twitch/Mixer API's, viewed by over 50,000 live viewers at TennoCon."
+
+        ]
+      },
+      {
+        "company":"Economical Insurance",
+        "title":"Technical Analyst",
+        "date":"Sept-Dec 2018",
+        "description":[
+          "Troubleshot and resolved IT-related issues, successfully solving 300+ tickets",
+          "Managed deployment of thousands of computer assets company-wide"
+        ]
+      },
+      {
+        "company":"McKinsey & Company",
+        "title":"GHD Specialist",
+        "date":"Jan-Apr 2018",
+        "description":[
+          "Successfully oversaw the migration of 26,000 colleagues’ email servers",
+          "Developed and documented 47 processes to enhance efficiency and knowledge sharing on ServiceNow platform"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Spotify Blends 2.0",
+        "company": "MSCI 446 - Intro to Machine Learning",
+        "date": "April 2022",
+        "description": [
+          "Experimented with various machine learning techniques to generate playlists that combine the music tastes of several Spotify users via Python (pandas, sklearn, numpy) and Spotify API."
+        ]
+      },
+      {
+        "title": "Monkey Evolution Simulator",
+        "company": "SYDE 599 - Biology and Computation",
+        "date": "October 2021",
+        "description": [
+          "Designed a Python (pygame, numpy) natural selection simulation to study the correlation between various features (durability, speed, perception) and evolutionary trends."
+        ]
+      },
+      {
+        "title": "BitBeatz",
+        "company": "SYDE 361 - Engineering Design",
+        "date": "May-Aug 2020",
+        "description": [
+          "Developed a React application with the requirements of providing users: a collaborative experience, network functionality, and genetic algorithm-generated music",
+          "Contributed primarily to the Front End, mocked interface via Figma and implemented using React and Material UI"
+        ]
+      },
+      {
+        "title": "Queery",
+        "link": "https://devpost.com/software/queery",
+        "company": "HackHarvard (Best Hack for Social Good)",
+        "date": "October 2018",
+        "description": [
+          "Prototyped a forum-style site using technologies such as AWS Cloud 9 and NodeJS, with Facebook Login API for user profiles and sign-in",
+          "Implemented malicious-user filtering using Facebook Graph API along with Microsoft Text Analytics API to screen users’ posts"
+        ]
+      }
+    ]
+  }
+}
